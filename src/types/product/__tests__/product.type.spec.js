@@ -34,6 +34,7 @@ describe('Product schema', () => {
       expect(type).toBeTruthy()
 
       const baseFields = {
+        id: 'ID!',
         name: 'String!',
         price: 'Float!',
         image: 'String!',
